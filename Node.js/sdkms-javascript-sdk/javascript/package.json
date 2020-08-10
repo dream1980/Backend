@@ -1,0 +1,22 @@
+{
+  "name": "fortanix_sdkms_rest_api",
+  "version": "1.0.0-20181004",
+  "description": "This_is_a_set_of_REST_APIs_for_accessing_the_Fortanix_Self_Defending_Key_Management_System__This_includes_APIs_for_managing_accounts_and_for_performing_cryptographic_and_key_management_operations_",
+  "license": "Apache 2.0",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha --recursive"
+  },
+  "browser": {
+    "fs": false
+  },
+  "dependencies": {
+    "btoa": "^1.2.1",
+    "superagent": "3.5.2"
+  },
+  "devDependencies": {
+    "mocha": "~2.3.4",
+    "sinon": "1.17.3",
+    "expect.js": "~0.3.1"
+  }
+}
