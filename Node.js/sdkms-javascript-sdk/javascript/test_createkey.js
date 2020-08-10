@@ -5,8 +5,8 @@ var btoa = require('btoa');
 var defaultClient = FortanixSdkmsRestApi.ApiClient.instance;
 defaultClient.basePath="https://api.amer.smartkey.io"
 var basicAuth = defaultClient.authentications['basicAuth'];
-basicAuth.username = "d66237fe-d559-4d99-b76b-e9d335038417" // AppID
-basicAuth.password = "CzjLYmgMsvnZ_Bn26BgBeNrqH1qDD-3wdKn4yj7vqmS61PfIeQMfqRzZT697kwpMeuPBYcVkXNj263_6E_Dyqg" // App Secret
+basicAuth.username = "" // AppID
+basicAuth.password = "" // App Secret
 
 
 var encryptionCallback = function(error, data, response) {
